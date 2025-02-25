@@ -14,17 +14,17 @@
 - Faker (генерация тестовых данных)
 
 ## Структура проекта
-api_testing_project/
-├── src/ # Исходный код
-│ ├── utils/
-│ │ ├── api_client.py # API клиент
-│ │ ├── schemas.py # Схемы валидации
-│ ├── config/
-│ │ ├── config.py # Конфигурация
-├── tests/
-│ ├── test_posts_api.py # Тесты API
-├── requirements.txt
-├── setup.py
+
+* **src/:** Исходный код проекта
+    * **utils/:** Вспомогательные модули
+        * `api_client.py`: API клиент для взаимодействия с JSONPlaceholder
+        * `schemas.py`: JSON-схемы для валидации ответов API
+    * **config/:** Конфигурация проекта
+        * `config.py`: Файл с настройками 
+* **tests/:** Тесты API
+    * `test_posts_api.py`: Тесты для endpoints, связанных с постами
+* `requirements.txt`: Список зависимостей проекта
+* `setup.py`: Скрипт для установки пакета
 
 
 ## Установка и настройка
